@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'basel-grotesk';
+    src: url("./fonts/basel-grotesk-book-webfont.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'basel-grotesk';
+    src: url("./fonts/basel-grotesk-medium-webfont.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'basel-grotesk';
+    src: url("./fonts/basel-grotesk-bold-webfont.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    --color-*: initial;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-sand: #F2EEEB;
+    --color-oat: #FAFAF8;
+    --color-berry-100: #EAB8F2;
+    --color-berry-200: #7A005D;
+    --color-berry-300: #4A0039;
+    --color-mulberry: #4F2637;
+
+    --font-basel: 'basel-grotesk', sans-serif;
+    
+    
+}
