@@ -1,10 +1,11 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <script src="./js/ani-ui.js" defer></script>
     <style>
         .eventforge-form-container {
             width: 100% !important;
@@ -128,7 +129,7 @@
                 <p class="font-basel text-berry-100 text-[clamp(1.5rem,0.5rem+2vw,2.375rem)] font-normal pt-2 pb-4">
                     It's your time to break borders
                 </p>
-                <a href="#form" class="inline-block font-basel font-medium text-[1.3125rem] bg-berry-100 px-8 py-2 rounded-md border-2 border-berry-100 hover:bg-transparent hover:text-berry-100 hover:font-medium transition-all duration-500">
+                <a href="#formId" class="inline-block font-basel font-medium text-[1.3125rem] bg-berry-100 px-8 py-2 rounded-md border-2 border-berry-100 hover:bg-transparent hover:text-berry-100 hover:font-medium hover:scale-105 transition-all duration-500">
                     Register Now
                 </a>
             </div>
@@ -244,13 +245,13 @@
             </h2>
 
             <!-- Cards -->
-            <div class="flex flex-col lg:flex-row gap-6 items-center">
+            <div class="flex flex-col lg:flex-row gap-6 items-center lg:items-stretch">
                 
-                <div class="bg-white w-full flex-1 rounded-[1.375rem] p-2">
+                <div class="bg-white w-full flex-1 rounded-[1.375rem] p-2 flex flex-col">
                     <div class="w-full border border-b-berry-100 rounded-[1rem] overflow-clip">
                         <img class="object-cover w-full h-auto" src="./img/img-card-1-426x324.jpg" alt="Global expansion" width="426" height="324">
                     </div>
-                    <div class="font-basel leading-normal text-center py-[3.125rem] px-2">
+                    <div class="font-basel leading-normal text-center py-[3.125rem] px-2 flex-1">
                         <p class="font-bold text-[clamp(1.125rem,0.875rem+1.25vw,2rem)] text-berry-300">
                             Global Expansion
                         </p>
@@ -260,11 +261,11 @@
                     </div>
                 </div>
 
-                <div class="bg-white w-full flex-1 rounded-[1.375rem] p-2">
+                <div class="bg-white w-full flex-1 rounded-[1.375rem] p-2 flex flex-col">
                     <div class="w-full border border-b-berry-100 rounded-[1rem] overflow-clip">
                         <img class="object-cover w-full h-auto" src="./img/img-card-2-426x324.jpg" alt="Global expansion" width="426" height="324">
                     </div>
-                    <div class="font-basel leading-normal text-center py-[3.125rem] px-2">
+                    <div class="font-basel leading-normal text-center py-[3.125rem] px-2 flex-1">
                         <p class="font-bold text-[clamp(1.125rem,0.875rem+1.25vw,2rem)] text-berry-300">
                             Workforce Management
                         </p>
@@ -274,11 +275,11 @@
                     </div>
                 </div>
 
-                <div class="bg-white w-full flex-1 rounded-[1.375rem] p-2">
+                <div class="bg-white w-full flex-1 rounded-[1.375rem] p-2 flex flex-col">
                     <div class="w-full border border-b-berry-100 rounded-[1rem] overflow-clip">
                         <img class="object-cover w-full h-auto" src="./img/img-card-3-426x324.jpg" alt="Global expansion" width="426" height="324">
                     </div>
-                    <div class="font-basel leading-normal text-center py-[3.125rem] px-2">
+                    <div class="font-basel leading-normal text-center py-[3.125rem] px-2 flex-1">
                         <p class="font-bold text-[clamp(1.125rem,0.875rem+1.25vw,2rem)] text-berry-300">
                             Rippling AI
                         </p>
@@ -290,14 +291,15 @@
 
             </div>
 
-            <!-- Accrodion -->
             <div class="py-[9rem]">
                 <div class="font-basel text-berry-100 text-[clamp(0.075rem,0.475rem+2.75vw,2rem)] font-bold pb-8">
                     Event Agenda
                 </div>
                 <div class="space-y-3 border-y-2 border-y-berry-100">
-                    <details class="group [&amp;_summary::-webkit-details-marker]:hidden px-4 py-[3.375rem]">
-                        <summary class="flex cursor-pointer items-center justify-between gap-4 focus:outline-0">
+                    
+                    <div class="accordion-item px-4 py-[3.375rem]">
+                        
+                        <button class="accordion-trigger w-full flex cursor-pointer items-center justify-between gap-4 focus:outline-0 text-left bg-transparent border-0 p-0">
                             <span class="font-bold text-sand text-left text-[clamp(1.563rem,1.259rem+1.518vw,2.625rem)]">
                                 The Turning Point
                                 <p class="font-normal text-white text-[clamp(1rem,0.857rem+0.714vw,1.5rem)]">
@@ -305,27 +307,30 @@
                                 </p>
                             </span>
 
-                            <svg class="shrink-0 group-open:-rotate-180 group-open:bg-sand w-8 h-8 md:w-12 md:h-12 lg:w-[62px] lg-h-[62px] bg-berry-100 hover:bg-sand rounded-md transition-colors duration-500" xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62" fill="none">
-                                <rect width="61.2" height="61.2" rx="6.3"/>
+                            <svg class="accordion-icon shrink-0 w-8 h-8 md:w-12 md:h-12 lg:w-[62px] lg:h-[62px] bg-berry-100 hover:bg-sand rounded-md transition-all duration-500 ease-in-out" xmlns="http://w3.org" width="62" height="62" viewBox="0 0 62 62" fill="none">
+                                <rect width="61.2" height="61.2" rx="6.3" fill="currentColor" class="text-transparent"/>
                                 <path d="M20.7002 27.9001L30.6002 36.9001L40.5002 27.9001" stroke="#4A0039" stroke-width="1.8" stroke-linecap="round"/>
                             </svg>
-                        </summary>
+                        </button>
 
-                        <div class="pt-[3.375rem] space-y-8">
-                            <p class="font-basel font-normal text-white text-[clamp(1rem,0.857rem+0.714vw,1.5rem)]">
-                                <span class="font-bold">12:00 &ndash; 12:30pm</span> — Loreum ipsum
-                            </p>
-                            <p class="font-normal text-white text-[clamp(1rem,0.857rem+0.714vw,1.5rem)]">
-                                <span class="font-bold">1:00 &ndash; 1:30pm</span> — Loreum ipsum
-                            </p>
-                            <p class="font-normal text-white text-[clamp(1rem,0.857rem+0.714vw,1.5rem)]">
-                                <span class="font-bold">1:30 &ndash; 2:00pm</span> — Loreum ipsum
-                            </p>
-                            <p class="font-normal text-white text-[clamp(1rem,0.857rem+0.714vw,1.5rem)]">
-                                <span class="font-bold">2:00 &ndash; 2:30pm</span> — Loreum ipsum
-                            </p>
+                        <div class="accordion-content overflow-hidden max-h-0 opacity-0 -translate-y-4 transition-all duration-700 ease-in-out">
+                            <div class="pt-[3.375rem] space-y-8">
+                                <p class="font-basel font-normal text-white text-[clamp(1rem,0.857rem+0.714vw,1.5rem)]">
+                                    <span class="font-bold">12:00 &ndash; 12:30pm</span> — Loreum ipsum
+                                </p>
+                                <p class="font-normal text-white text-[clamp(1rem,0.857rem+0.714vw,1.5rem)]">
+                                    <span class="font-bold">1:00 &ndash; 1:30pm</span> — Loreum ipsum
+                                </p>
+                                <p class="font-normal text-white text-[clamp(1rem,0.857rem+0.714vw,1.5rem)]">
+                                    <span class="font-bold">1:30 &ndash; 2:00pm</span> — Loreum ipsum
+                                </p>
+                                <p class="font-normal text-white text-[clamp(1rem,0.857rem+0.714vw,1.5rem)]">
+                                    <span class="font-bold">2:00 &ndash; 2:30pm</span> — Loreum ipsum
+                                </p>
+                            </div>
                         </div>
-                    </details>
+
+                    </div>
                 </div>
             </div>
             
@@ -441,7 +446,7 @@
 
     <section class="bg-[url(./img/img-formbg-1440x1024.jpg)] bg-center bg-cover bg-no-repeat">
         <div class="w-full max-w-[90rem] mx-auto px-[1.25rem] py-[13.5rem]">
-            <h2 class="text-berry-100 font-bold text-[clamp(2rem,1.2676rem+3.125vw,4.0625rem)] mb-12 leading-tight">
+            <h2 class="text-berry-100 font-bold text-[clamp(2rem,1.2676rem+3.125vw,4.0625rem)] mb-12 leading-tight" id="formId">
                 Register to take part <span class="text-sand"><br>in this round-table event.</span>
             </h2>
             <div>
