@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'basel-grotesk';
-    src: url("./fonts/basel-grotesk-book-webfont.woff2") format("woff2");
+    src: url("../../dist/assets/fonts/basel-grotesk-book-webfont.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'basel-grotesk';
-    src: url("./fonts/basel-grotesk-medium-webfont.woff2") format("woff2");
+    src: url("../../dist/assets/fonts/basel-grotesk-medium-webfont.woff2") format("woff2");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -18,7 +18,7 @@
 
 @font-face {
     font-family: 'basel-grotesk';
-    src: url("./fonts/basel-grotesk-bold-webfont.woff2") format("woff2");
+    src: url("../../dist/assets/fonts/basel-grotesk-bold-webfont.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -36,4 +36,1024 @@
     --color-mulberry: #4F2637;
 
     --font-basel: 'basel-grotesk', sans-serif;
+}
+
+/* EventForge Form*/
+.eventforge-form-container {
+    width: 100% !important;
+    max-width: 50rem !important; 
+    margin: 0 !important;
+}
+
+#eventforge-form-ef_appmh0ml-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+@media (min-width: 600px) {
+    #eventforge-form-ef_appmh0ml-form {
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap: 15px !important;
+    }
+
+    /* Job Title stays in 1 column */
+    #eventforge-form-ef_appmh0ml-form .eventforge-form-field:nth-of-type(5) {
+        grid-column: span 1 !important;
+    }
+
+    /* Industry spans both columns */
+    #eventforge-form-ef_appmh0ml-form .eventforge-form-field:nth-of-type(6) {
+        grid-column: span 2 !important;
+    }
+}
+.eventforge-form-container h2, .eventforge-form-container p{
+    display: none !important;
+}
+
+.eventforge-form-label {
+    font-family: "Basel Grotesk", sans-serif;
+    font-size: 1.188rem;
+    color: white !important;
+    width: 100% !important;
+}
+
+.eventforge-form-submit, .eventforge-form-select, .eventforge-form-select  {
+    font-family: "Basel Grotesk", sans-serif;
+    font-size: 1.188rem;
+    font-weight: bold !important;
+    width: 100% !important;
+}
+
+.eventforge-form-label {
+    font-size: 16px !important;
+}
+
+.eventforge-form-input {
+    font-family: "Basel Grotesk", sans-serif;
+    border-radius: 10px !important;
+    background-color: #FFFFFF !important;
+    font-size: 1.188rem;
+    font-weight: normal !important;
+    width: 100% !important;
+    padding: 14px 10px !important;
+}
+
+.eventforge-form-select {
+    color: #000000 !important;
+    border-radius: 10px !important;
+    cursor: pointer !important;
+    appearance: none !important;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%2347566b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>') !important;
+    background-repeat: no-repeat !important;
+    background-position: right 1rem center !important;
+    background-size: 1rem !important;
+    padding: 14px 10px !important;
+}
+
+.eventforge-form-submit {
+    margin-top: 2rem !important;
+    color: #000000 !important;
+    background-color: #EAB8F2 !important;
+    border-color: #EAB8F2 !important;
+    border-width: 2px !important;
+    border-radius: 6px !important;
+    transition: all !important;
+    transition-duration: .5s !important;
+}
+
+/* Campaign Monitor Form */
+
+.iIDDUy {
+    width: 100%;
+    position: relative;
+}
+
+.ebeRtN {
+    align-items: start;
+    display: flex;
+}
+
+.fiUAra {
+    font-size: 0.875rem;
+    padding-left: 0.5rem;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    position: relative;
+}
+
+.jMsntP {
+    color: EAB8F2;
+    font-weight: 400;
+    font-size: 0.75rem;
+    margin-left: 0.125rem;
+}
+
+.eKOoKL {
+    flex-shrink: 0;
+    height: 1rem;
+    position: relative;
+    top: 0.08rem;
+    width: 1rem;
+}
+
+.hYNtOw {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 0.875rem;
+}
+
+.cKFCFj {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 0.875rem;
+}
+
+.hqpDLs {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 0.875rem;
+}
+
+.cXJVaT {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 1px;
+}
+
+.goQQZg {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 1px;
+}
+
+.kyFekX {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 1px;
+}
+
+.gEZDgt {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 14px;
+}
+
+.fchCrQ {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 14px;
+}
+
+.gIELuS {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 14px;
+}
+
+.hXgHIQ {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 16px;
+}
+
+.eczHyn {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 16px;
+}
+
+.iEiNpf {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 16px;
+}
+
+.jFYeKb {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 16px;
+}
+
+.euadFl {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 16px;
+}
+
+.hfhnVl {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #FFF;
+    display: block;
+    font-size: 16px;
+}
+
+.iFTUZ {
+    color: #EAB8F2;
+}
+
+.dshyOS {
+    appearance: none;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    color: #000;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    min-height: 2.8125rem;
+    outline: 0px;
+    padding: 0.5rem .75rem;
+    transition: box-shadow 0.2s;
+    width: 100%;
+}
+
+.dshyOS:focus {
+    box-shadow: transparent 0px 0px 0px 0px inset, #EAB8F2 0px 0px 0px 1px inset, #4A0039 0px 0px 0px 2px;
+}
+
+.jZSLFe {
+    margin-bottom: 0.5rem;
+}
+
+.kXIIFK {
+    margin-bottom: 1rem;
+}
+
+.jslhpj {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 29.125rem;
+    padding-bottom: 3.125rem;
+}
+
+.jmtkzV {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 1.17;
+    -webkit-font-smoothing: antialiased;
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+}
+
+.kjRPYY {
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: -1px;
+    line-height: 1.17;
+    -webkit-font-smoothing: antialiased;
+    font-family: Lato, Arial, sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+.kFBOaz {
+    border-bottom: 1px solid rgb(210, 215, 223);
+    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.coBuPy {
+    border-bottom: 1px solid rgb(210, 215, 223);
+    margin-bottom: 0.75rem;
+    padding-top: 0.75rem;
+}
+
+.cVhqQi {
+    margin-bottom: 0.25rem;
+}
+
+@-webkit-keyframes iECmZH {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes iECmZH {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.dwYSlG {
+    background-color: rgb(123, 177, 61);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.dwYSlG:hover {
+    cursor: pointer;
+}
+
+.fbTroV {
+    background-color: rgb(123, 177, 61);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.fbTroV:hover {
+    cursor: pointer;
+}
+
+.lagSWm {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.lagSWm:hover {
+    cursor: pointer;
+}
+
+.hbhCib {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(73, 66, 66);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.hbhCib:hover {
+    cursor: pointer;
+}
+
+.cvdStK {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(72, 65, 65);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.cvdStK:hover {
+    cursor: pointer;
+}
+
+.dtmmWR {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(69, 62, 62);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.dtmmWR:hover {
+    cursor: pointer;
+}
+
+.laFOPJ {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(65, 59, 59);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.laFOPJ:hover {
+    cursor: pointer;
+}
+
+.gEIixr {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(57, 54, 54);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.gEIixr:hover {
+    cursor: pointer;
+}
+
+.eoHJbV {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(53, 50, 50);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.eoHJbV:hover {
+    cursor: pointer;
+}
+
+.eaPzaQ {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(49, 46, 46);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.eaPzaQ:hover {
+    cursor: pointer;
+}
+
+.iyWfnp {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(43, 42, 42);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.iyWfnp:hover {
+    cursor: pointer;
+}
+
+.fPhWWd {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(39, 38, 38);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.fPhWWd:hover {
+    cursor: pointer;
+}
+
+.bEdlYr {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(35, 34, 34);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.bEdlYr:hover {
+    cursor: pointer;
+}
+
+.hOBuhs {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(31, 30, 30);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.hOBuhs:hover {
+    cursor: pointer;
+}
+
+.jMchya {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(27, 27, 27);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.jMchya:hover {
+    cursor: pointer;
+}
+
+.fxMUTJ {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(23, 23, 23);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.fxMUTJ:hover {
+    cursor: pointer;
+}
+
+.kLEbrC {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(21, 21, 21);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.kLEbrC:hover {
+    cursor: pointer;
+}
+
+.bvGTIH {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(19, 19, 19);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.bvGTIH:hover {
+    cursor: pointer;
+}
+
+.dYrZEr {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(17, 17, 17);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.dYrZEr:hover {
+    cursor: pointer;
+}
+
+.ecvDoX {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(13, 13, 13);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.ecvDoX:hover {
+    cursor: pointer;
+}
+
+.bQPVgv {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(11, 11, 11);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.bQPVgv:hover {
+    cursor: pointer;
+}
+
+.gqlhlR {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(9, 9, 9);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.gqlhlR:hover {
+    cursor: pointer;
+}
+
+.jIFBvc {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(8, 8, 8);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.jIFBvc:hover {
+    cursor: pointer;
+}
+
+.hGpVWN {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(6, 6, 6);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.hGpVWN:hover {
+    cursor: pointer;
+}
+
+.hSWgjV {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(5, 5, 5);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.hSWgjV:hover {
+    cursor: pointer;
+}
+
+.cYfdYV {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(3, 3, 3);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.cYfdYV:hover {
+    cursor: pointer;
+}
+
+.btJGqz {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(2, 2, 2);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.btJGqz:hover {
+    cursor: pointer;
+}
+
+.cuDFAk {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(1, 1, 1);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.cuDFAk:hover {
+    cursor: pointer;
+}
+
+.ivuZqo {
+    background-color: rgb(234, 184, 242);
+    border-width: medium;
+    border-style: none;
+    border-color: currentcolor;
+    border-image: initial;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1;
+    outline: 0px;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in, box-shadow 0.1s ease-in;
+}
+
+.ivuZqo:hover {
+    cursor: pointer;
+}
+
+.gmfawT {
+    white-space: pre-wrap;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: rgb(67, 77, 93);
+}
+
+button, label {
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
