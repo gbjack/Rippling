@@ -38,93 +38,24 @@
     --font-basel: 'basel-grotesk', sans-serif;
 }
 
-/* EventForge Form*/
-.eventforge-form-container {
-    width: 100% !important;
-    max-width: 50rem !important; 
-    margin: 0 !important;
-}
-
-#eventforge-form-ef_appmh0ml-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-@media (min-width: 600px) {
-    #eventforge-form-ef_appmh0ml-form {
-        display: grid !important;
-        grid-template-columns: 1fr 1fr !important;
-        gap: 15px !important;
+@utility no-spinner {
+    /* Chrome, Safari, Edge, Opera */
+    &::-webkit-outer-spin-button {
+        -webkit-appearance: none !important;
+        margin: 0 !important;
     }
-
-    /* Job Title stays in 1 column */
-    #eventforge-form-ef_appmh0ml-form .eventforge-form-field:nth-of-type(5) {
-        grid-column: span 1 !important;
+    &::-webkit-inner-spin-button {
+        -webkit-appearance: none !important;
+        margin: 0 !important;
     }
-
-    /* Industry spans both columns */
-    #eventforge-form-ef_appmh0ml-form .eventforge-form-field:nth-of-type(6) {
-        grid-column: span 2 !important;
+    /* Firefox */
+    &[type="number"] {
+        -moz-appearance: textfield !important;
     }
-}
-.eventforge-form-container h2, .eventforge-form-container p{
-    display: none !important;
-}
-
-.eventforge-form-label {
-    font-family: "Basel Grotesk", sans-serif;
-    font-size: 1.188rem;
-    color: white !important;
-    width: 100% !important;
-}
-
-.eventforge-form-submit, .eventforge-form-select, .eventforge-form-select  {
-    font-family: "Basel Grotesk", sans-serif;
-    font-size: 1.188rem;
-    font-weight: bold !important;
-    width: 100% !important;
-}
-
-.eventforge-form-label {
-    font-size: 16px !important;
-}
-
-.eventforge-form-input {
-    font-family: "Basel Grotesk", sans-serif;
-    border-radius: 10px !important;
-    background-color: #FFFFFF !important;
-    font-size: 1.188rem;
-    font-weight: normal !important;
-    width: 100% !important;
-    padding: 14px 10px !important;
-}
-
-.eventforge-form-select {
-    color: #000000 !important;
-    border-radius: 10px !important;
-    cursor: pointer !important;
-    appearance: none !important;
-    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="%2347566b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>') !important;
-    background-repeat: no-repeat !important;
-    background-position: right 1rem center !important;
-    background-size: 1rem !important;
-    padding: 14px 10px !important;
-}
-
-.eventforge-form-submit {
-    margin-top: 2rem !important;
-    color: #000000 !important;
-    background-color: #EAB8F2 !important;
-    border-color: #EAB8F2 !important;
-    border-width: 2px !important;
-    border-radius: 6px !important;
-    transition: all !important;
-    transition-duration: .5s !important;
 }
 
 /* Campaign Monitor Form */
-.iIDDUy {
+/* .iIDDUy {
         width: 100% !important;
         max-width: 50rem !important; 
         margin: 0 !important;
@@ -141,7 +72,6 @@
         padding-left: 0.5rem;
         overflow-wrap: break-word;
         word-break: break-word;
-        font-family: Helvetica, Arial, sans-serif;
         font-weight: 400;
         color: #FFF;
         position: relative;
@@ -301,4 +231,4 @@
     p {
         overflow-wrap: break-word;
         word-break: break-word;
-    }
+    } */
