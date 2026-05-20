@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'basel-grotesk';
-    src: url("../../dist/assets/fonts/basel-grotesk-book-webfont.woff2") format("woff2");
+    src: url("./fonts/basel-grotesk-regular-webfont.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: 'basel-grotesk';
-    src: url("../../dist/assets/fonts/basel-grotesk-medium-webfont.woff2") format("woff2");
+    src: url("./fonts/basel-grotesk-medium-webfont.woff2") format("woff2");
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -18,7 +18,7 @@
 
 @font-face {
     font-family: 'basel-grotesk';
-    src: url("../../dist/assets/fonts/basel-grotesk-bold-webfont.woff2") format("woff2");
+    src: url("./fonts/basel-grotesk-bold-webfont.woff2") format("woff2");
     font-weight: 700;
     font-style: normal;
     font-display: swap;
@@ -36,6 +36,7 @@
     --color-mulberry: #4F2637;
 
     --font-basel: 'basel-grotesk', sans-serif;
+    --font-sans: 'basel-grotesk', sans-serif;
 }
 
 @utility no-spinner {
